@@ -1,0 +1,20 @@
+:root {
+    --primary: rgb(212, 10, 10);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Pretendard;
+}
+
+body {
+    width: 300px;
+    height: 450px;
+}
+
+h1 {
+    text-align: center;
+    color: var(--primary);
+}

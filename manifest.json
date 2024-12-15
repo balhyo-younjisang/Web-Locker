@@ -1,0 +1,15 @@
+{
+  "manifest_version": 3,
+  "name": "Web Locker",
+  "version": "1.0.0",
+  "description": "Block specific websites to help you stay focused.",
+  "permissions": ["storage", "tabs", "webNavigation"],
+  "host_permissions": ["*://*/*"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "/html/popup.html"
+  },
+  "options_page": "/html/options.html"
+}
